@@ -5,8 +5,7 @@ import Usestatefun from "./Use State Hook/Usestate fun ";
 function App() {
   return (
     <div>
-<Counter></Counter>  
-  </div>
+<Routing1></Routing1>  </div>
   );
 }
 export default App;
