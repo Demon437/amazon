@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Link} from "react-router-dom";
 import Home from "./Home";
 
 import Button from "react-bootstrap/Button";
@@ -14,20 +14,17 @@ function Routing1() {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Nav className="me-auto">
-            <Link href="/">Home</Link>
-            <Link href="/electronics">Electronics</Link>
-            <Link href="/jewelery">Jwellery</Link>
-            <Link href="/men's clothing ">Men Cloths</Link>
-            <Link href="/Women ">Women Cloths</Link>
+            <Link to="/">Home</Link>
+            <Link to="/electronics">Electronics</Link>
+            <Link to="/jewelery">Jwellery</Link>
+            <Link to="/men's clothing ">Men Cloths</Link>
+            <Link to="/Women ">Women Cloths</Link>
             <Link>
-              <Button variant="primary">Login</Button>
+              <Button>Login</Button>
             </Link>
             <Link>
-              <Button variant="dark">Register</Button>
+              <Button>Register</Button>
             </Link>
-            <Link href="/*"></Link>
-          </Nav>
         </Container>
       </Navbar>
       
@@ -37,8 +34,8 @@ function Routing1() {
           <Route path="jewelery" Component={Jwellery}></Route>
           <Route path="men's clothing" Component={Mencloths}></Route>
         </Routes>
+      
     </>
   );
 }
-
 export default Routing1;
