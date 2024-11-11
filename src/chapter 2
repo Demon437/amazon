@@ -1,0 +1,4 @@
+// 1. Mount => (kab run hoga ) class component Loading => (i) constructor (ii)render (iii) component did mount.
+
+// 2. Update => (kab run hoga ) state/prop change => (i) should component update (ii) render (iii) component did update
+// 3. unmount => (kab run hoga ) (iii) component shut down
