@@ -1,13 +1,9 @@
 body {
-  background-color: #b2aba9;
-}
-.app{
-  text-align: center;
-  
+  background-color: #a9a9b2;
 }
 
 .container {
-  background-color: #f2f2f2;
+  background-color: #ee0e0e;
   justify-content: center;
   width: 50%;
   margin-left: 26%;
@@ -52,16 +48,18 @@ button:hover {
   background-color: #45a049;
 }
 .header {
-  width: 95%;
-  background-color: rgb(7, 2, 71);
+  width: 50%;
+  margin-left: 25%;
+  background-color: black;
   padding: 1px 20px;
   color: white;
+  margin-bottom: 30px;
 }
 
 .ui-define {
   background-color: rgb(243, 240, 243);
-  margin-left: 25%;
-  width: 50%;
+  margin-left: 20%;
+  width: 66%;
   padding: 20px 30px;
-  margin: 5%;
+  margin-top: 5%;
 }

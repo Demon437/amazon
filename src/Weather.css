@@ -1,0 +1,13 @@
+.Weather-container {
+  text-align: center;
+  background-color: lightskyblue;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.wearher-info {
+  margin-top: 20px;
+}

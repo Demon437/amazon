@@ -1,13 +1,12 @@
-import { BrowserRouter } from "react-router-dom";
-import Routing1 from "./Routing1";
+import React from "react";
+import Website from "./Website";
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Routing1></Routing1>
-      </BrowserRouter>
+      <Website></Website>
     </div>
   );
 }
+
 export default App;
